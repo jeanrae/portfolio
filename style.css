@@ -1,0 +1,105 @@
+body {
+    font-family: Karla, sans-serif; 
+}
+
+nav {
+    padding: 75px 100px 50px 50px;
+    word-spacing: 30px;
+    text-align: right;
+}
+
+#introduction {
+    font-size: 30px;
+    padding: 100px;
+    font-weight: lighter;
+}
+
+.right-picture{
+    float: right;
+    width: 33%;
+    padding: 100px;
+}
+
+.left-picture{
+    float: left;
+    width: 33%;
+    padding: 100px;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+#festival-text {
+    padding: 100px;
+}
+
+#magazine-text {
+    padding: 100px 100px 100px 800px;
+}
+
+#spotify-text {
+    padding: 100px;
+}
+
+#headshot {
+    width: 25%;
+    padding-left: 200px;
+    float:left; display:inline;
+}
+
+#about-me p {
+    float:left; 
+    display:inline;
+    width: 33%;
+    padding:100px;
+    padding-left: 200px;
+}
+
+#about-me h2 {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#contact-me h2{
+    text-align: center;
+    padding-top: 500px;
+}
+
+#contact-me p{
+    text-align: center;
+}
+
+.icon {
+    display:inline; width: 33%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   vertical-align: middle;
+} 
+
+#contact-icons {
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+}
+
+
+
