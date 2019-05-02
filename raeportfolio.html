@@ -28,11 +28,11 @@
     <div id="nav"><header class="header">
             <a href="" class="logo">Sarah <em>Rae</em></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <label id="xButton"  class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-              <li><a href="#work" style=color:black>Work</a></li>
-              <li><a href="#about-me" style=color:black>About</a></li>
-              <li><a href="#contact-me" style=color:black>Contact</a></li>
+              <li><a class="menu-btn-tab" href="#work" style=color:black>Work</a></li>
+              <li><a class="menu-btn-tab" href="#about-me" style=color:black>About</a></li>
+              <li><a class="menu-btn-tab" href="#contact-me" style=color:black>Contact</a></li>
             </ul>
           </header></div>   
 
@@ -139,7 +139,29 @@
     </div>
     <script>
         var prevScrollpos = window.pageYOffset;
-        
+        var xButton = document.getElementById('xButton');
+        var xInput = document.getElementById('menu-btn');
+        var menuBtns = document.getElementsByClassName("menu-btn-tab");
+        console.log(menuBtns);
+        for (var i = 0; i < menuBtns.length; i++) {
+            menuBtns[i].onclick = function () {
+                console.log("Hi!");
+                console.log(xInput.checked);
+                if (xInput.checked) {
+                    xInput.checked = false;
+                }
+            }
+        }
+
+
+
+        // xButton.onclick = function () {
+        //     if (xInput.checked) console.log("checked")
+        //     else {
+        //         console.log("not checked")
+        //     }
+        //     // alert("Hi");
+        // }
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
