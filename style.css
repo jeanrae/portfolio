@@ -1,31 +1,7 @@
+/*begin general*/
 body {
     font-family: Karla, sans-serif; 
 }
-
-nav {
-    padding: 75px 100px 50px 50px;
-    word-spacing: 30px;
-    text-align: right;
-}
-
-#introduction {
-    font-size: 30px;
-    padding: 100px;
-    font-weight: lighter;
-}
-
-.right-picture{
-    float: right;
-    width: 33%;
-    padding: 100px;
-}
-
-.left-picture{
-    float: left;
-    width: 33%;
-    padding: 100px;
-}
-
 
 h2 {
     font-size: 36px;
@@ -46,6 +22,50 @@ h4 {
     padding-top: 20px;
     padding-bottom:20px;
 }
+/*end general*/
+
+/*begin navigation*/
+#navigation {
+    background-color: #F6FAFC;
+    padding-top: 50px;
+}
+
+#categories {
+    word-spacing: 30px;
+    display: inline;
+    text-align: right;
+    padding-left: 850px;
+    
+}
+
+#name {
+    text-align: left;
+    display: inline;
+    padding-left: 100px;
+    
+}
+/* end navigation*/
+
+/*begin introduction*/
+#introduction {
+    font-size: 30px;
+    padding: 100px;
+    background-color: #F6FAFC;
+}
+/*end introduction*/
+
+/*begin work*/
+.right-picture{
+    float: right;
+    width: 33%;
+    padding: 100px;
+}
+
+.left-picture{
+    float: left;
+    width: 33%;
+    padding: 100px;
+}
 
 #festival-text {
     padding: 100px;
@@ -58,7 +78,9 @@ h4 {
 #spotify-text {
     padding: 100px;
 }
+/*end work*/
 
+/*begin about*/
 #headshot {
     width: 25%;
     padding-left: 200px;
@@ -78,7 +100,9 @@ h4 {
     padding-top: 200px;
     padding-bottom: 50px;
 }
+/*end about*/
 
+/*begin contact*/
 #contact-me h2{
     text-align: center;
     padding-top: 500px;
@@ -100,6 +124,7 @@ h4 {
     width: 50%;
     padding: 100px;
 }
+/*end contact*/
 
 
 
