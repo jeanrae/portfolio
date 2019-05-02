@@ -7,80 +7,149 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" href="r.png" />
     <title>Sarah Rae</title>
 </head>
 
 <body>
-    <section>
-        <div>
-            <div id="navigation">
-                <p id="name">Sarah Rae</p>
-                <nav id="categories">Work About Contact</nav>
+    <!-- <section>
+       <div id="navigation">
+            <div>
+                <p id="name">Sarah <em>Rae</em></p>
             </div>
-    </section>
+            <div>
+                <nav id="categories"><a href="#work">Work</a> <a href="#about-me">About</a> <a
+                        href="#contact-me">Contact</a></nav>
+            </div>
+        </div> -->
 
-    <section id="introduction">
-        <h3>Hi, I'm Sarah. <br> I'm a UX/UI Designer based in Berlin</h3>
-    </section>
-    </div>
+    </section> 
+
+    <div id="nav"><header class="header">
+            <a href="" class="logo">Sarah <em>Rae</em></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#work" style=color:black>Work</a></li>
+              <li><a href="#about-me" style=color:black>About</a></li>
+              <li><a href="#contact-me" style=color:black>Contact</a></li>
+            </ul>
+          </header></div>   
+
+          <div id="introduction">
+                <h3>Hi, I'm Sarah. <br> I'm a UX/UI Designer based in Berlin</h3>
+            </div>
 
     <section id="work">
         <div id="spotify">
-            <img class="right-picture" src="blankphoto.png">
             <div id="spotify-text">
                 <h2>*Final Project*</h2>
                 <p>A description of my final project.</p>
                 <h4>Read case study → </h4>
             </div>
+            <div>
+                <img class="right-picture" src="blankphoto.png">
+            </div>
         </div>
         <div id="magazine">
-            <img class="left-picture" src="spark.png">
-            <div id="magazine-text">
+            <div>
+                <img class=workitems src="spark.png">
+            </div>
+            <div class="workitems" id="magazine-text">
                 <h2>Editorial Magazine</h2>
                 <p>Designing a responsive online magazine</p>
                 <h4>Read case study → </h4>
             </div>
         </div>
         <div id="festival">
-            <img class="right-picture" src="rwmf.png">
             <div id="festival-text">
                 <h2>Festival Microsite</h2>
                 <p>Designing a microsite for a music festival</p>
                 <h4>Read case study → </h4>
+            </div>
+            <div>
+                <img class="right-picture" src="rwmf.png">
             </div>
         </div>
 
     </section>
 
     <div id="about-me">
-        <h2>About me</h2>
-        <img id="headshot" src="headshot.png">
-        <p>This is going to say a bunch of stuff about me.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
-            <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.</p>
+        <div id="abouttitle">
+            <h2>About me</h2>
+        </div>
+        <div id="aboutcontent">
+            <img id="headshot" src="headshot.png">
+            <p>This is going to say a bunch of stuff about me.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+        </div>
     </div>
 
     <div id="contact-me">
-        <h2>Get in touch</h2>
-        <p>A sentence about contacting me</p>
+        <div id="contacttitle">
+            <h2>Get in touch</h2>
+        </div>
+        <div id="contactsubtitle">
+            <p>A sentence about contacting me</p>
+        </div>
         <div id="contact-icons">
             <div class="icon" id="linkedin">
-                <img id="linkedin-icon" src="linkedin.png">
-                <a href="https://www.linkedin.com/in/rae-sarah/" id="linkedin-link">in/rae-sarah</a>
+                <a href="https://www.linkedin.com/in/rae-sarah/" target="_blank">
+                    <img id="linkedin-icon" src="linkedin.png">
+                </a>
+                <a href="https://www.linkedin.com/in/rae-sarah/" target="_blank" id="linkedin-link">in/rae-sarah</a>
             </div>
             <div class="icon" id="medium">
-                <img id="medium-icon" src="medium.png">
-                <a href="https://medium.com/@sje.rae" id="medium-link">@sje.rae</a>
+                <a href="https://medium.com/@sarah_rae" target="_blank">
+                    <img id="medium-icon" src="medium.png">
+                </a>
+                <a href="https://medium.com/@sarah_rae" id="medium-link" target="_blank">@sarah_rae</a>
             </div>
             <div class="icon" id="email">
-                <img id="email-icon" src="email.png">
+                <a href="mailto:sje.rae@gmail.com">
+                    <img id="email-icon" src="email.png">
+                </a>
                 <a href="mailto:sje.rae@gmail.com" id="email-link">sje.rae@gmail.com</a>
             </div>
         </div>
     </div>
+
+    <div id="footer">
+        <div id="footericons">
+            <a href="https://www.linkedin.com/in/rae-sarah/" target="_blank">
+                <img src="footerlinkedin.png">
+            </a>
+            <a href="https://medium.com/@sarah_rae" target="_blank">
+                <img src="footermedium.png">
+            </a>
+            <a href="mailto:sje.rae@gmail.com">
+                <img src="footeremail.png">
+            </a>
+        </div>
+        <div id="footertext">
+            <p>Footer stuff</p>
+        </div>
+
+    </div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav").style.top = "0";
+            } else {
+                document.getElementById("nav").style.top = "-120px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
 </body>
 
