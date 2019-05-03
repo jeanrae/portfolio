@@ -71,7 +71,7 @@ em {
 /*begin introduction*/
 #introduction {
   font-size: 30px;
-  padding: 150px 100px 100px 100px;
+  padding: 170px 100px 100px 100px;
   /* margin-top: 100px; */
   background-color: #f6fafc;
 }
@@ -90,7 +90,7 @@ em {
 #festival {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   margin: 100px;
   align-items: center;
 }
@@ -98,7 +98,7 @@ em {
 #spotify {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   margin: 100px;
   align-items: center;
 }
@@ -235,6 +235,7 @@ img {
   padding-top: 20px;
   padding-left: 80px;
   margin-right: 200px;
+  padding-bottom: 20px;
   position: fixed;
   top: 0;
   width: 100%;
