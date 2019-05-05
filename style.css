@@ -3,6 +3,19 @@ body {
   font-family: Karla, sans-serif;
 }
 
+#contactsubtitle {
+  text-align: center;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.background {
+  background-color: #f6fafc;
+}
+
 h2 {
   font-size: 36px;
   font-weight: bolder;
@@ -105,6 +118,14 @@ em {
 img {
   max-width: 500px;
 }
+
+.left-text {
+  padding: 0px 30px 0px 30px;
+}
+
+.right-text {
+  padding: 0px 30px 0px 30px;
+}
 /*end work*/
 
 /*begin about*/
@@ -122,7 +143,7 @@ img {
 
 #aboutcontent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 50px 100px 50px 100px;
   align-items: center;
@@ -134,7 +155,7 @@ img {
 }
 
 #aboutcontent p {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 /*end about*/
@@ -232,7 +253,7 @@ img {
   background-color: #f6fafc;
   padding-top: 20px;
   padding-left: 80px;
-  margin-right: 200px;
+  margin-right: 180px;
   padding-bottom: 20px;
   position: fixed;
   top: 0;
@@ -403,6 +424,7 @@ em {
   }
   
   #work img {
+    width: 100%;
     max-width: 400px;
    /* margin-right: 20px;
     margin-left: 20px; */
@@ -465,5 +487,52 @@ em {
     font-size: 16px;
   }
 
- 
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 1214px) {
+  #aboutcontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 20px 50px 20px;
+    align-items: center;
+  }
+  
+  #aboutcontent img {
+    max-width: 250px;
+  }
+  
+  #aboutcontent p {
+    max-width: 600px;
+    padding-top: 50px;
+  }
+
+  #magazine {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 100px 20px 100px 20px;
+  }
+  
+  #festival {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin: 100px 20px 100px 20px;
+    align-items: center;
+  }
+  
+  #spotify {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin: 100px 20px 100px 20px;
+    align-items: center;
+  }
+  
+
 }
