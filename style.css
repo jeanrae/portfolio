@@ -78,6 +78,15 @@ h4 {
   align-items: center;
 }
 
+#buds {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin: 100px;
+  align-items: center;
+}
+
+
 #spotify {
   display: flex;
   justify-content: space-between;
@@ -87,7 +96,7 @@ h4 {
 }
 
 img {
-  max-width: 525px;
+  max-width: 500px;
 }
 
 .left-text {
@@ -385,11 +394,19 @@ em {
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
+
+  #buds {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    margin: 100px 20px 100px 20px;
+    align-items: center;
+  }
   
   #spotify {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
