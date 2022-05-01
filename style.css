@@ -27,6 +27,7 @@ p {
   font-size: 18px;
   padding-top: 20px;
   padding-bottom: 20px;
+  line-height: 24px;
 }
 
 h3 {
@@ -39,47 +40,17 @@ h4 {
   font-weight: bolder;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: black;
+}
+
+#aboutcontent a {
+  color: black;
+}
+
+#work a {
+  text-decoration: none;
 }
 /*end general*/
-
-/*begin navigation*/
-/* #navigation {
-    background-color: #F6FAFC;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: fixed; 
-  top: 0; 
-  width: 100%; 
-  transition: top 0.5s;  
-}
-
-#categories {
-    word-spacing: 30px;
-    display: inline;
-    text-align: right;
-    padding-right: 100px;
-    padding-left: 100px;
-}
-
-#categories a {
-    text-decoration: none;
-    color: black;
-}
-
-#name {
-    text-align: left;
-    display: inline;
-    padding-left: 100px;
-    
-}
-
-em {
-    font-weight: bolder;
-}
-/* end navigation*/
 
 /*begin introduction*/
 #introduction {
@@ -106,6 +77,15 @@ em {
   margin: 100px;
   align-items: center;
 }
+
+#buds {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin: 100px;
+  align-items: center;
+}
+
 
 #spotify {
   display: flex;
@@ -414,11 +394,19 @@ em {
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
+
+  #buds {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    margin: 100px 20px 100px 20px;
+    align-items: center;
+  }
   
   #spotify {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
