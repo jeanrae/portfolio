@@ -406,7 +406,7 @@ em {
   #projectfour {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
