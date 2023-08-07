@@ -62,7 +62,7 @@ h4 {
 
 /*begin work*/
 
-#magazine {
+#projectone {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -70,7 +70,7 @@ h4 {
   margin: 100px;
 }
 
-#festival {
+#projecttwo {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
@@ -78,16 +78,16 @@ h4 {
   align-items: center;
 }
 
-#buds {
+#projectthree {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   margin: 100px;
   align-items: center;
 }
 
 
-#spotify {
+#projectfour {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
@@ -379,7 +379,7 @@ em {
     padding: 170px 150px 100px 20px;
   }
 
-  #magazine {
+  #projectone {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -387,7 +387,7 @@ em {
     margin: 100px 20px 100px 20px;
   }
   
-  #festival {
+  #projecttwo {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap-reverse;
@@ -395,18 +395,18 @@ em {
     align-items: center;
   }
 
-  #buds {
+  #projectthree {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
   
-  #spotify {
+  #projectfour {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
@@ -498,7 +498,7 @@ em {
     padding-top: 50px;
   }
 
-  #magazine {
+  #projectone {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -506,7 +506,7 @@ em {
     margin: 100px 20px 100px 20px;
   }
   
-  #festival {
+  #projecttwo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -514,10 +514,10 @@ em {
     align-items: center;
   }
   
-  #spotify {
+  #projectthree {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 100px 20px 100px 20px;
     align-items: center;
   }
